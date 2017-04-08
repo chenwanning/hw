@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>
+        您輸入的編號是:
+        <%=pokemonResult.nationalNo %>號。
+            <br>
+            <br> 查詢的結果是:
+            <%=pokemonResult.name %>。
+    </h2>
+    <p>
+        <% if(pokemonResult.nationalNo < 10){ %>
+          <img src="../Pokemons/00<%=pokemonResult.nationalNo %>.png" alt="">
+        <% } else if (pokemonResult.nationalNo >= 10 && pokemonResult.nationalNo < 100) { %>
+           <img src="../Pokemons/0<%=pokemonResult.nationalNo %>.png" alt="">
+        <% } else { %>
+        <img src="../Pokemons/<%=pokemonResult.nationalNo %>.png" alt="">
+        <% } %>
+      
+    </p>
+
+
+
+</body>
+
+</html>

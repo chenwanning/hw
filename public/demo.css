@@ -1,0 +1,159 @@
+.title{
+    text-align: center;
+    color: pink;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.titleDemo{
+    text-align: center;
+    color: pink;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+
+
+
+#startName{
+    background-color: lightblue;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family:monospace;
+    color: darkblue;
+    font-size: 1.2rem;
+    
+}
+
+#inputeName{
+padding-top: 10px;
+}
+
+
+#hello{
+padding-top:20px;
+padding-bottom: 20px;
+text-align: center;
+font-size: 1.2rem;
+line-height: 2em;
+font-family: 標楷體;
+background-color: pink;
+}
+
+#answerQuestions{
+background-color: lightgoldenrodyellow;
+padding-top:20px;
+padding-left: 100px;
+padding-bottom:20px;
+font-family: 標楷體;
+}
+
+
+#answerQuestions2{
+background-color:papayawhip;
+padding-top:20px;
+padding-left: 720px;
+padding-bottom:20px;
+font-family: 標楷體;
+
+}
+
+.answerQuestion{
+padding-left: 30px;
+padding-bottom: 50px;
+line-height: 2em;
+ font-size: 1.2rem;
+}
+
+.select{
+    padding-top:20px;
+    padding-left: 100px;
+padding-bottom: 20px;
+text-align: left;
+font-size: 1.5rem;
+color: white;
+font-family: 標楷體;
+background-color:lightcoral;
+letter-spacing: 0.8rem;
+}
+
+#select2{
+  padding-left: 720px;  
+}
+
+.question{
+   font-size: 1.5rem;
+   font-weight: bold; 
+   color:darkslategrey;
+}
+
+#testButton{
+    text-align: center;
+    background-color: lightsteelblue;
+    padding: 100px;
+}
+
+input[type=text]{
+    height: 30px;
+	width: 175px;
+    font-size: 1.2rem;
+}
+
+
+input[type=submit] {
+    height: 50px;
+	width: 220px;
+	border-radius: 4px;
+	background-color: #817f7f;
+	color: #f4d9dd;
+	letter-spacing: 2px;
+	text-align: center;
+    font-family: 標楷體;
+    font-size: 1.2rem;
+
+}
+
+input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+
+::placeholder { 
+    color: lightgray;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-style: italic;
+    font-family: 標楷體;
+     }
+#demoResult1{
+    padding-top:20px;
+    padding-left: 100px;
+padding-bottom: 20px;
+text-align: left;
+font-size: 1.5rem;
+color: white;
+font-family: 標楷體;
+background-color:lightcoral;
+letter-spacing: 0.8rem;
+}
+     #demoResult{
+         color: rgba(64, 37, 114, 0.86);
+         text-align:left;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+     font-family: 標楷體;
+        font-weight: bold; 
+        background-color:rgba(221, 204, 252, 0.86);
+        letter-spacing: 0.5rem;
+        line-height: 1.4em;
+
+     }

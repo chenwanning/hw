@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funny Game</title>
+    <link rel="stylesheet" href="../demo.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="../index.js"></script>
+   
+</head>
+<body>
+
+    <div class="title">
+    <h1>Funny Game!</h1>
+    <h3>How do you know about wan-ning?</h3>
+    </div>
+    <div id="hello"><h3>Hello, <%=name %>您好:)<br>測驗要開始囉!請回答下列問題:</h3></div>
+    <form action="./demoResult" method="GET">
+<div class=select>單選題</div>
+ <div id="answerQuestions">
+    <p > <div class="question">1.請問你知道婉寧喜歡吃什麼嗎?</div>  <br>
+    <div class="answerQuestion">
+    <input type="radio" name="food" value="0">讓我們歡聚歡笑每一刻的麥當勞。<br>
+    <input type="radio" name="food" value="0">可以吃得好飽好飽的吃到飽。<br>
+    <input type="radio" name="food" value="1">什麼都吃，所以食物都喜歡。<br>
+    </div>
+    </p>
+
+     <p > <div class="question">2.請問你知道婉寧家中有幾個兄弟姊妹嗎?</div>  <br>
+      <div class="answerQuestion">
+    <input type="radio" name="sis" value="1">一個嚴肅聰明的姊姊。<br>
+    <input type="radio" name="sis" value="0">二個帥氣挺拔的哥哥。<br>
+    <input type="radio" name="sis" value="0">一個頑皮的弟弟與一個淘氣的妹妹。<br>
+    </div>
+    </p>
+
+     <p > <div class="question">3.請問你知道婉寧最害怕的東西是什麼?</div>  <br>
+      <div class="answerQuestion">
+    <input type="radio" name="afraid" value="0">蟑螂。<br>
+    <input type="radio" name="afraid" value="0">考試。<br>
+    <input type="radio" name="afraid" value="1">太陽。<br>
+    </div>
+    </p>
+
+     <p > <div class="question">4.請問你知道婉寧交過幾個男朋友嗎?</div><br>
+      <div class="answerQuestion">
+    <input type="radio" name="relationship" value="0">超級純情，都沒有交過!<br>
+    <input type="radio" name="relationship" value="0">超級專情，交過一個。<br>
+    <input type="radio" name="relationship" value="1">換換口味，交過兩個。<br>
+        <input type="radio" name="relationship" value="0">人生總是分分合合、來來去去，三個以上。<br>
+    </div>
+    </p>
+ </div> 
+ <div class=select id="select2">複選題</div>
+ <div id="answerQuestions2">
+     <p ><div class="question">5.請問你知道婉寧最喜歡聽誰的音樂呢?</div>  <br>
+      <div class="answerQuestion">
+    <input type="checkbox" name="music" value="1">好聽的流行樂。<br>
+    <input type="checkbox" name="music" value="1">五月天。<br>
+    <input type="checkbox" name="music" value="1">鋼琴氣質音樂。<br>
+    </div>
+    </p>
+
+     <p ><div class="question">6.請問你知道婉寧有什麼壞習慣嗎?</div>  <br>
+      <div class="answerQuestion">
+    <input type="checkbox" name="bad" value="1">亂七八糟的房間。<br>
+    <input type="checkbox" name="bad" value="1">有時候蠻任性的。<br>
+    <input type="checkbox" name="bad" value="0">驕傲自大。<br>
+    </div>
+    </p>
+
+    <p ><div class="question">7.請問你知道婉寧有哪些驕傲的事嗎? </div>  <br>
+      <div class="answerQuestion">
+    <input type="checkbox" name="pride" value="0">頭腦頂尖，聰明過人。<br>
+    <input type="checkbox" name="pride" value="1">第一年就考上教師甄試。<br>
+    <input type="checkbox" name="pride" value="1">馬不停蹄，山路路跑十公里。<br>
+     <input type="checkbox" name="pride" value="0">英文超溜~~。<br>
+   
+    </div>
+    </p>
+
+     <p > <div class="question">8.請問你知道婉寧最喜歡做哪些事情嗎?</div>  <br>
+      <div class="answerQuestion">
+    <input type="checkbox" name="like"  value="1">和幽默開朗的朋友們在一起哈哈大笑。<br>
+    <input type="checkbox" name="like"  value="1">逛街、逛街、逛街!<br>
+    <input type="checkbox" name="like"  value="1">山上踏青，海邊踏浪。<br>
+    <input type="checkbox" name="like"  value="1">閱讀書本長知識。<br>
+    <input type="checkbox" name="like"  value="1">像鄉下人般的早睡早起。<br>
+    </div>
+    </p>
+    
+    </div>
+  <div id="testButton"><input type="submit" id="save_value" value="終於寫完了!看結果" ></div> 
+
+  </form>
+  
+
+
+</body>
+</html>

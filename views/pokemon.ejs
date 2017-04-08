@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <p>請輸入寶可夢編號(1~151號):</p>
+  <form action="./pokemon" method="GET">
+    <input type="number" name="nationalNo">
+    <input type="submit" value="查詢">
+  </form>
+
+<br>
+<br>
+
+  <h2>所有的Pokemons:</h2>
+
+ <% for (var i = 0; i < pokemons.length; i++) { %>
+ <p>
+      nationalNo<%=pokemons[i].nationalNo %>:<%=pokemons[i].name %>
+</p>
+
+<% } %>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funny Game</title>
+    <link rel="stylesheet" href="../demo.css">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+     <script src="../index.js"></script>
+</head>
+<body>
+    <div class="titleDemo">
+    <h1>Funny Game!</h1>
+    <h3>How do you know about wan-ning?</h3>
+    </div>
+    <div id="demoResult1">測驗結果</div>  
+  
+       總分是16分，你的分數是:  <%=resulttotal %><br>
+        
+
+        <% if( resulttotal = 16){ %>
+          哇!你太強了!每一題都答對!<br>
+          你是婉寧本人吧!?
+        <% } else if (resulttotal >= 12 && score.total < 16) { %>
+          哇!你幾乎答對了所有的題目!<br>
+          你應該是婉寧的超級好朋友喔!不然就是魔法師~
+         <% } else if (resulttotal >= 6 && score.total < 12) { %>
+          不錯喔!答對蠻多的，你們應該是朋友!
+        <% } else { %>
+            哈!很抱歉幾乎都答錯了。<br>
+            但謝謝你來做測驗~這麼不熟還願意測驗一下!
+        <% } %>
+       
+        
+  
+ </div>
+
+ 
+</body>
+</html>
